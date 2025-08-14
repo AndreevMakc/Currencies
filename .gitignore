@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Poetry virtual environment folder (если создаёте виртуалку в проекте)
+.poetry/
+
+# Poetry cache и логи (обычно вне проекта, но чтобы быть уверенным)
+.poetry-cache/
+poetry.lock
+
+# Pytest cache
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# MacOS файлы
+.DS_Store
+
+# Логи и временные файлы
+*.log
+*.tmp
